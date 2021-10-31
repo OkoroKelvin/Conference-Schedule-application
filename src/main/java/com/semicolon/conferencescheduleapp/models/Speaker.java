@@ -1,10 +1,12 @@
 package com.semicolon.conferencescheduleapp.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.List;
+
 
 @Entity(name = "speakers")
 public class Speaker {
